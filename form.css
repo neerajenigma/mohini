@@ -1,0 +1,43 @@
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 95%;
+    margin-top: 100px;
+    margin-left: 2%;
+}
+
+td,th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+#desc{
+    width:40%;
+}
+#pmore{
+    display: none;
+}
+a{
+    color: green;
+    cursor: pointer;
+}
+#rdls{
+    display: none;
+}
+
+@media(max-width:850px){
+    table{
+        display: flex;
+      flex-wrap: nowrap;
+      min-width: 570px;
+    }
+    td,th{
+        font-size: 12px;
+    }
+    #desc{
+        width:45%;
+    }
+    #locate{
+        width: 18%;
+    }
+}
